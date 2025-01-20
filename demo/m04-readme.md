@@ -31,3 +31,28 @@ minimum and maximum values
 Centers data round the mean and divides each value by the 
 standard deviation so all features have 0 mean and unit variance
 
+## Categotical data
+Categorical data can only draw from 
+a specific, restricted set of values
+
+Not meaningful to calculate mean, 
+standard deviation, correlation
+
+Fine to tabulate categorical data using 
+count frequencies and percentages
+
+- Ordinal data is categorical, but can 
+still be ordered (E.g. month of the year, 
+ratings on a scale of 1 to 5)
+
+- Noaminal, Even less in common with numeric 
+data - cannot even be ordered, nominal data are simply names (E.g. Brand names of cars)
+
+/!\ Categorical data has to be 
+numerically encoded before 
+it can be used in ML models
+
+- Label encoding : Numeric id for each category; 
+single column suffices
+
+- One-hot encoding : Separate column with 1 or 0 for presence/absence of each category
